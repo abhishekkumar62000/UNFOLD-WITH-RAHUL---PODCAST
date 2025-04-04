@@ -609,7 +609,7 @@
 
       <section class="host" id="host" style="padding: 50px 0; background-color: #f9f9f9;">
         <div class="container" style="display: flex; align-items: center; gap: 30px; flex-wrap: wrap; animation: fadeIn 1.5s ease;">
-      
+          
           <!-- Host Image -->
           <div class="host-image" style="flex: 1; text-align: center; display: flex; flex-direction: column; align-items: center; animation: zoomIn 1.5s ease;">
             <img src="./assets/images/pic.png" alt="Host Image" class="host-img" style="width: 100%; max-width: 400px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease;">
@@ -639,7 +639,6 @@
       </section>
       
       <style>
-        /* Animations */
         @keyframes fadeIn {
           from {
             opacity: 0;
@@ -673,27 +672,38 @@
           }
         }
       
-        /* Hover effect for the image */
         .host-img:hover {
           transform: scale(1.05);
           box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
         }
       
-        /* Hover effect for the button */
         .btn-primary:hover {
           background-color: #ca16ea;
         }
+
+        @media (max-width: 768px) {
+          .container {
+            flex-direction: column;
+            text-align: center;
+          }
       
-        /* Add a gradient background to the section */
-        #host {
-          background: linear-gradient(135deg, #f9f9f9, #e3f2fd);
-        }
+          .host-image, .host-intro {
+            flex: unset;
+            width: 100%;
+          }
       
-        /* Add shadow and padding to the container */
-        .container {
-          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-          padding: 20px;
-          border-radius: 10px;
+          .host-intro h2 {
+            font-size: 2rem;
+          }
+      
+          .host-intro p {
+            font-size: 1rem;
+          }
+      
+          .btn-primary {
+            width: 100%;
+            justify-content: center;
+          }
         }
       </style>
 

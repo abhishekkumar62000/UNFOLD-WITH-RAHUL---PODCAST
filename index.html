@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UNFOLD WITH RAHUL - Podcast website</title>
+
+  <!-- 
+    - favicon link
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body id="top">
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="active" data-header>
+    <div class="container" style="display: flex; justify-content: center; align-items: center; height: 80px;">
+  
+      <!-- Logo -->
+      <a href="#" class="logo" style="font-size: 1.5rem; font-weight: bold; color: #ff5733; text-transform: uppercase; display: flex; align-items: center; gap: 5px;">
+        <span style="color: #e74c3c; font-size: 1.5rem;">🎙️</span>
+        <span style="color: #ca16ea;">UNFOLD</span>
+        <span style="color: #1bbde6;">WITH</span>
+        <span style="color: #e74c3c;">RAHUL</span>
+        <img src="./assets/images/pic.png" alt="Logo" style="width: 50px; height: 50px; margin-left: 10px;">
+      </a>
+  
+      <!-- Navbar Toggle Button -->
+      <button class="nav-toggle-btn" data-nav-toggle-btn style="font-size: 1.5rem; background: none; border: none; cursor: pointer;">
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+  
+      <!-- Navbar -->
+      <nav class="navbar" data-navbar style="flex-grow: 1; text-align: right;">
+        <ul class="navbar-list" style="display: flex; gap: 15px; list-style: none; margin: 0; padding: 0; align-items: center;">
+  
+          <li class="navbar-item">
+            <a href="#hero" class="navbar-link" style="font-size: 1rem; color: #f7ebeb; text-decoration: none; padding: 5px 10px;">Home</a>
+          </li>
+  
+          <li class="navbar-item">
+            <a href="#podcast" class="navbar-link" style="font-size: 1rem; color: #f7ebeb; text-decoration: none; padding: 5px 10px;">Podcast</a>
+          </li>
+  
+          <li class="navbar-item">
+            <a href="#host" class="navbar-link" style="font-size: 1rem; color: #f7ebeb; text-decoration: none; padding: 5px 10px;">Host</a>
+          </li>
+  
+          <li class="navbar-item">
+            <a href="#footer-brand" class="navbar-link" style="font-size: 1rem; color: #f7ebeb; text-decoration: none; padding: 5px 10px;">Contact</a>
+          </li>
+  
+        </ul>
+      </nav>
+  
+    </div>
+  </header>
+
+
+  <main>
+    <article class="container">
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="hero">
+
+        <div class="hero-content">
+
+          <img src="./assets/images/hero-title.png" alt="Podcast" class="hero-title">
+
+          <p class="hero-text">
+            Welcome to UNFOLD WITH RAHUL, a Podcast Session that dives deep into untold stories, 
+            life-changing experiences, and thought-provoking conversations. 
+            Every episode brings insights from experts, storytellers, and individuals who have unique journeys to share
+          </p>
+
+          <div class="hero-btn-group">
+
+            <a href="https://www.youtube.com/@UnfoldwithRahul" class="btn btn-primary" style="text-decoration: none;">
+              <ion-icon name="headset"></ion-icon>
+              <span>Listen Now</span>
+            </a>
+
+            <div class="btn-link-wrapper">
+
+              <p class="btn-title">Subscribe On:</p>
+
+              <a href="https://www.youtube.com/@UnfoldwithRahul" class="btn-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+
+                <span>Youtube</span>
+              </a>
+
+              <a href="https://www.facebook.com/profile.php?id=61574603038138" class="btn-link">
+                <ion-icon name="logo-Facebook"></ion-icon>
+
+                <span>facebook</span>
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="hero-banner"></div>
+
+      </section>
+
+
+      
+
+
+      <!-- 
+
+- #PODCAST
+      -->
+
+      <section class="podcast" id="podcast">
+        <div class="podcast-search-filter">
+          <input type="text" id="search-bar" placeholder="Search episodes by title, guest, or topic..." class="input-field">
+          <select id="filter-category" class="input-field">
+            <option value="">All Categories</option>
+            <option value="Politics">Politics</option>
+            <option value="Technology">Technology</option>
+            <option value="Health">Health</option>
+            <option value="Business">Business</option>
+          </select>
+        </div>
+
+        <ul class="podcast-list" id="podcast-list">
+          <li>
+            <a href="https://youtu.be/Ci2KYL5baBs?si=eQdQeYk4nxl8KD6J" class="podcast-card">
+
+              <figure class="card-banner">
+                <img src="Rahul-Gandhi.jpg" alt="Caste & Politics in India:">
+
+                <div class="card-banner-icon">
+                  <ion-icon name="play"></ion-icon>
+                </div>
+              </figure>
+
+              <div class="card-content">
+                <div class="card-meta">
+                  <time datetime="2022-02-15">Feb 15, 2025</time>
+
+                  <p class="pod-epi">Episodes: 01</p>
+                </div>
+
+                <h3 class="h3 card-title">Caste & Politics in India:,</h3><br>
+                <h6 class="h3 card-title">🎙️Guest: Rahul Gandhi– Political Scientist </h6>
+                <div class="card-reviews" style="background-color: #f9f9f9; padding: 10px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+                  <div class="rating" style="display: flex; align-items: center; gap: 10px; font-size: 1rem; color: #ff9800;">
+                    <span style="font-weight: bold;">⭐ 4.5</span>
+                    <span style="color: #555;">(120 Reviews)</span>
+                  </div>
+                </div>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="https://youtu.be/Ci2KYL5baBs?si=eQdQeYk4nxl8KD6J" class="podcast-card">
+
+              <figure class="card-banner">
+                <img src="modi.jpeg" alt=" Entrepreneurship & Failures">
+
+                <div class="card-banner-icon">
+                  <ion-icon name="play"></ion-icon>
+                </div>
+              </figure>
+
+              <div class="card-content">
+                <div class="card-meta">
+                  <time datetime="2022-02-15">Feb 15, 2022</time>
+
+                  <p class="pod-epi">Episodes: 02</p>
+                </div>
+
+                <h3 class="h3 card-title"> Entrepreneurship & Failures,</h3><br>
+                <h6 class="h3 card-title">🎙️Guest: Modi – PM</h6>
+                <div class="card-reviews" style="background-color: #f9f9f9; padding: 10px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+                  <div class="rating" style="display: flex; align-items: center; gap: 10px; font-size: 1rem; color: #ff9800;">
+                    <span style="font-weight: bold;">⭐ 5.0</span>
+                    <span style="color: #555;">(150 Reviews)</span>
+                  </div>
+                </div>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="https://youtu.be/Ci2KYL5baBs?si=eQdQeYk4nxl8KD6J" class="podcast-card">
+
+              <figure class="card-banner">
+                <img src="amit.webp" alt="How to Effectively Incentivize Team Members">
+
+                <div class="card-banner-icon">
+                  <ion-icon name="play"></ion-icon>
+                </div>
+              </figure>
+
+              <div class="card-content">
+                <div class="card-meta">
+                  <time datetime="2022-02-15">Apr 15, 2025</time>
+
+                  <p class="pod-epi">Episodes: 03</p>
+                </div>
+
+                <h3 class="h3 card-title">The Rise of AI & Future</h3><br>
+                <h6 class="h3 card-title">🎙️ Guest: Amit Shah – Home Minister of India</h6>
+                <div class="card-reviews" style="background-color: #f9f9f9; padding: 10px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+                  <div class="rating" style="display: flex; align-items: center; gap: 10px; font-size: 1rem; color: #ff9800;">
+                    <span style="font-weight: bold;">⭐ 4.3</span>
+                    <span style="color: #555;">(80 Reviews)</span>
+                  </div>
+                </div>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="https://youtu.be/Ci2KYL5baBs?si=eQdQeYk4nxl8KD6J" class="podcast-card">
+
+              <figure class="card-banner">
+                <img src="yogi.jpeg" alt="Overcoming Anxiety & Stress">
+
+                <div class="card-banner-icon">
+                  <ion-icon name="play"></ion-icon>
+                </div>
+              </figure>
+
+              <div class="card-content">
+                <div class="card-meta">
+                  <time datetime="2022-02-15">Mar 26, 2025</time>
+
+                  <p class="pod-epi">Episodes: 04</p>
+                </div>
+
+                <h3 class="h3 card-title">Overcoming Anxiety & Stress</h3><br>
+                <h6 class="h3 card-title">🎙️Guest: CM Yogi – Former CM of UP</h6>
+                <div class="card-reviews" style="background-color: #f9f9f9; padding: 10px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+                  <div class="rating" style="display: flex; align-items: center; gap: 10px; font-size: 1rem; color: #ff9800;">
+                    <span style="font-weight: bold;">⭐ 4.5</span>
+                    <span style="color: #555;">(100 Reviews)</span>
+                  </div>
+                </div>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="https://youtu.be/Ci2KYL5baBs?si=eQdQeYk4nxl8KD6J" class="podcast-card">
+
+              <figure class="card-banner">
+                <img src="rjd.jpeg" alt="The Future of Indian Politics">
+
+                <div class="card-banner-icon">
+                  <ion-icon name="play"></ion-icon>
+                </div>
+              </figure>
+
+              <div class="card-content">
+                <div class="card-meta">
+                  <time datetime="2022-02-15">April 15, 2025</time>
+
+                  <p class="pod-epi">Episodes: 05</p>
+                </div>
+
+                <h3 class="h3 card-title">The Future of Bihar Politics</h3>
+                <h6 class="h3 card-title">🎙️Guest: Tejashwi Yadav – Political Leader, Bihar</h6>
+                <div class="card-reviews" style="background-color: #f9f9f9; padding: 10px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+                  <div class="rating" style="display: flex; align-items: center; gap: 10px; font-size: 1rem; color: #ff9800;">
+                    <span style="font-weight: bold;">⭐ 5.5</span>
+                    <span style="color: #555;">(500 Reviews)</span>
+                  </div>
+                </div>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="https://youtu.be/WMuDOtIXj7g?si=TJuBQZgFI0UjHG9D" class="podcast-card">
+
+              <figure class="card-banner">
+                <img src="jansuraj.jpeg" alt="The Role of Social Media in Politics">
+
+                <div class="card-banner-icon">
+                  <ion-icon name="play"></ion-icon>
+                </div>
+              </figure>
+
+              <div class="card-content">
+                <div class="card-meta">
+                  <time datetime="2022-02-15">April 11, 2025</time>
+
+                  <p class="pod-epi">Episodes: 06</p>
+                </div>
+
+                <h3 class="h3 card-title">The Role of Social Media in Politics</h3><br>
+                <h6 class="h3 card-title">🎙️Guest: Prashant Kishor – Political Strategist</h6>
+                <div class="card-reviews" style="background-color: #f9f9f9; padding: 10px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+                  <div class="rating" style="display: flex; align-items: center; gap: 10px; font-size: 1rem; color: #ff9800;">
+                    <span style="font-weight: bold;">⭐ 4.2</span>
+                    <span style="color: #555;">(200 Reviews)</span>
+                  </div>
+                </div>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="https://youtu.be/WMuDOtIXj7g?si=TJuBQZgFI0UjHG9D" class="podcast-card">
+
+              <figure class="card-banner">
+                <img src="news.png" alt="2025 Bihar Elections: Strategies & Predictions">
+
+                <div class="card-banner-icon">
+                  <ion-icon name="play"></ion-icon>
+                </div>
+              </figure>
+
+              <div class="card-content">
+                <div class="card-meta">
+                  <time datetime="2022-02-15">may 15, 2025</time>
+
+                  <p class="pod-epi">Episodes: 07</p>
+                </div>
+
+                <h3 class="h3 card-title">2025 Bihar Elections: Strategies & Predictions</h3><br>
+                <h6 class="h3 card-title">🎙️Guest: Political Analyst & Election Expert</h6>
+                <div class="card-reviews" style="background-color: #f9f9f9; padding: 10px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+                  <div class="rating" style="display: flex; align-items: center; gap: 10px; font-size: 1rem; color: #ff9800;">
+                    <span style="font-weight: bold;">⭐ 4.8</span>
+                    <span style="color: #555;">(320 Reviews)</span>
+                  </div>
+                </div>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="https://youtu.be/WMuDOtIXj7g?si=TJuBQZgFI0UjHG9D" class="podcast-card">
+
+              <figure class="card-banner">
+                <img src="news1.jpg" alt="Caste & Politics in India: Power,">
+
+                <div class="card-banner-icon">
+                  <ion-icon name="play"></ion-icon>
+                </div>
+              </figure>
+
+              <div class="card-content">
+                <div class="card-meta">
+                  <time datetime="2022-02-15">May 1, 2025</time>
+
+                  <p class="pod-epi">Episodes: 08</p>
+                </div>
+
+                <h3 class="h3 card-title">Caste & Politics in India: Power,</h3><br>
+                <h6 class="h3 card-title">🎙️Guest: Dr. Sanjay Kumar – Political Scientist & Election Expert</h6>
+                <div class="card-reviews" style="background-color: #f9f9f9; padding: 10px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+                  <div class="rating" style="display: flex; align-items: center; gap: 10px; font-size: 1rem; color: #ff9800;">
+                    <span style="font-weight: bold;">⭐ 4.6</span>
+                    <span style="color: #555;">(150 Reviews)</span>
+                  </div>
+                </div>
+              </div>
+
+            </a>
+          </li>
+
+        </ul>
+      </section>
+
+
+
+        - #PODCAST
+      -->
+
+      <section class="podcast" id="podcast">
+        <ul class="podcast-list">
+
+          <li>
+            <a href="#" class="podcast-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/podcast-1.png" alt="Tube Preamps, TLM103 vs. OJ 818, Podcastage's Beanies">
+
+                <div class="card-banner-icon">
+                  <ion-icon name="play"></ion-icon>
+                </div>
+              </figure>
+
+              <div class="card-content">
+                <div class="card-meta">
+                  <time datetime="2022-02-15">Feb 15, 2022</time>
+
+                  <p class="pod-epi">Episodes: 01</p>
+                </div>
+
+                <h3 class="h3 card-title">Tube Preamps, TLM103 vs. OJ 818, Podcastage's Beanies</h3>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="podcast-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/podcast-2.png" alt="Ask Unladylike: Late Bloomer with Forever 35">
+
+                <div class="card-banner-icon">
+                  <ion-icon name="play"></ion-icon>
+                </div>
+              </figure>
+
+              <div class="card-content">
+                <div class="card-meta">
+                  <time datetime="2022-02-15">Feb 15, 2022</time>
+
+                  <p class="pod-epi">Episodes: 02</p>
+                </div>
+
+                <h3 class="h3 card-title">Ask Unladylike: Late Bloomer with Forever 35</h3>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="podcast-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/podcast-3.png" alt="How to Effectively Incentivize Team Members">
+
+                <div class="card-banner-icon">
+                  <ion-icon name="play"></ion-icon>
+                </div>
+              </figure>
+
+              <div class="card-content">
+                <div class="card-meta">
+                  <time datetime="2022-02-15">Feb 15, 2022</time>
+
+                  <p class="pod-epi">Episodes: 03</p>
+                </div>
+
+                <h3 class="h3 card-title">How to Effectively Incentivize Team Members</h3>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="podcast-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/podcast-4.png" alt="How to go from Start-Up to Scale-Up">
+
+                <div class="card-banner-icon">
+                  <ion-icon name="play"></ion-icon>
+                </div>
+              </figure>
+
+              <div class="card-content">
+                <div class="card-meta">
+                  <time datetime="2022-02-15">Feb 15, 2022</time>
+
+                  <p class="pod-epi">Episodes: 04</p>
+                </div>
+
+                <h3 class="h3 card-title">How to go from Start-Up to Scale-Up</h3>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="podcast-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/podcast-5.png" alt="Deadbuttons – Tired of You | Live at Club Heavy">
+
+                <div class="card-banner-icon">
+                  <ion-icon name="play"></ion-icon>
+                </div>
+              </figure>
+
+              <div class="card-content">
+                <div class="card-meta">
+                  <time datetime="2022-02-15">Feb 15, 2022</time>
+
+                  <p class="pod-epi">Episodes: 05</p>
+                </div>
+
+                <h3 class="h3 card-title">Deadbuttons – Tired of You | Live at Club Heavy</h3>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="podcast-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/podcast-6.png" alt="Boogie Through the Universe with SOWO">
+
+                <div class="card-banner-icon">
+                  <ion-icon name="play"></ion-icon>
+                </div>
+              </figure>
+
+              <div class="card-content">
+                <div class="card-meta">
+                  <time datetime="2022-02-15">Feb 15, 2022</time>
+
+                  <p class="pod-epi">Episodes: 06</p>
+                </div>
+
+                <h3 class="h3 card-title">Boogie Through the Universe with SOWO</h3>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="podcast-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/podcast-7.png" alt="Glittering Blackness, Fall – 4 | Live at Club Heavy">
+
+                <div class="card-banner-icon">
+                  <ion-icon name="play"></ion-icon>
+                </div>
+              </figure>
+
+              <div class="card-content">
+                <div class="card-meta">
+                  <time datetime="2022-02-15">Feb 15, 2022</time>
+
+                  <p class="pod-epi">Episodes: 07</p>
+                </div>
+
+                <h3 class="h3 card-title">Glittering Blackness, Fall – 4 | Live at Club Heavy</h3>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="podcast-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/podcast-8.png" alt="The Meditative Photos of Chaelinjane">
+
+                <div class="card-banner-icon">
+                  <ion-icon name="play"></ion-icon>
+                </div>
+              </figure>
+
+              <div class="card-content">
+                <div class="card-meta">
+                  <time datetime="2022-02-15">Feb 15, 2022</time>
+
+                  <p class="pod-epi">Episodes: 08</p>
+                </div>
+
+                <h3 class="h3 card-title">The Meditative Photos of Chaelinjane</h3>
+              </div>
+
+            </a>
+          </li>
+
+        </ul>
+      </section>
+
+
+      <!-- Add this section below the #PODCAST section -->
+
+      <section class="host" id="host" style="padding: 50px 0; background-color: #f9f9f9;">
+        <div class="container" style="display: flex; align-items: center; gap: 30px; flex-wrap: wrap; animation: fadeIn 1.5s ease;">
+      
+          <!-- Host Image -->
+          <div class="host-image" style="flex: 1; text-align: center; display: flex; flex-direction: column; align-items: center; animation: zoomIn 1.5s ease;">
+            <img src="./assets/images/pic.png" alt="Host Image" class="host-img" style="width: 100%; max-width: 400px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease;">
+            <div style="margin-top: 10px; text-align: center;">
+              <p style="font-size: 1.2rem; font-weight: bold; color: #333; margin: 0;">Rahul Yadav</p>
+              <p style="font-size: 1rem; color: #555; margin: 0;">President, Building Bihar</p>
+            </div>
+          </div>
+      
+          <!-- Host Introduction -->
+          <div class="host-intro" style="flex: 1; color: #333; animation: slideIn 1.5s ease;">
+            <h2 style="font-size: 2.5rem; color: #ff5733; margin-bottom: 20px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);">Meet Your Host🎙️</h2>
+            <p style="font-size: 1.2rem; line-height: 1.8; color: #555;">
+              Hi, I'm <span style="color: #ca16ea; font-weight: bold;">Rahul kr Yadav</span> The Voice behind <span style="color: #1bbde6; font-weight: bold;">UNFOLD WITH RAHUL</span>
+              With a passion for storytelling and a knack for diving deep into thought-provoking topics, I bring you conversations that inspire, educate, and entertain.
+            </p>
+            <p style="font-size: 1.2rem; line-height: 1.8; color: #555;">
+              Join me on this journey as we explore the stories that matter, one episode at a time.
+            </p>
+            <a href="mailto:myreach281@gmail.com" class="btn btn-primary" style="margin-top: 20px; display: inline-flex; align-items: center; gap: 10px; background-color: #ff5733; color: #fff; padding: 10px 20px; border-radius: 5px; text-decoration: none; transition: background-color 0.3s ease;">
+              <ion-icon name="mail-outline"></ion-icon>
+              <span>Contact Me</span>
+            </a>
+          </div>
+      
+        </div>
+      </section>
+      
+      <style>
+        /* Animations */
+        @keyframes fadeIn {
+          from {
+            opacity: 0;
+            transform: translateY(20px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+      
+        @keyframes slideIn {
+          from {
+            opacity: 0;
+            transform: translateX(-20px);
+          }
+          to {
+            opacity: 1;
+            transform: translateX(0);
+          }
+        }
+      
+        @keyframes zoomIn {
+          from {
+            opacity: 0;
+            transform: scale(0.8);
+          }
+          to {
+            opacity: 1;
+            transform: scale(1);
+          }
+        }
+      
+        /* Hover effect for the image */
+        .host-img:hover {
+          transform: scale(1.05);
+          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+      
+        /* Hover effect for the button */
+        .btn-primary:hover {
+          background-color: #ca16ea;
+        }
+      
+        /* Add a gradient background to the section */
+        #host {
+          background: linear-gradient(135deg, #f9f9f9, #e3f2fd);
+        }
+      
+        /* Add shadow and padding to the container */
+        .container {
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+          padding: 20px;
+          border-radius: 10px;
+        }
+      </style>
+
+<br>
+
+<!-- Add this section below the #PODCAST section -->
+
+<section class="host" id="host" style="padding: 50px 0; background-color: #f9f9f9;">
+  <div class="container" style="display: flex; align-items: center; gap: 30px; flex-wrap: wrap;">
+
+    <!-- Tech head Image -->
+    <div class="tech head-image" style="flex: 1; text-align: center; display: flex; flex-direction: column; align-items: center; animation: fadeIn 1.5s ease;">
+      <img src="Abhi.png" alt="Host Image" class="host-img" style="width: 100%; max-width: 400px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease;">
+      <div style="margin-top: 10px; text-align: center;">
+        <p style="font-size: 1.2rem; font-weight: bold; color: #333; margin: 0;">Abhi Yadav</p>
+        <p style="font-size: 1rem; color: #555; margin: 0;">Founder, TechSeva IT Solutions</p>
+      </div>
+    </div>
+
+    <!-- Tech Head Introduction -->
+    <div class="host-intro" style="flex: 1; color: #333; animation: slideIn 1.5s ease;">
+      <h2 style="font-size: 2rem; color: #ff5733; margin-bottom: 20px;">Meet Your Tech Lead</h2>
+      <p style="font-size: 1.1rem; line-height: 1.8; color: #555;">
+        Hi, I'm <span style="color: #ca16ea; font-weight: bold;">Abhi Yadav</span><span style="color: #b8af0f; font-weight: bold;">The Mind Behind the Tech</span><span style="color: #1bbde6; font-weight: bold;">UNFOLD WITH RAHUL & BUILDING BIHAR</span>
+      </p>
+      <p style="font-size: 1.1rem; line-height: 1.8; color: #555;">
+        With a passion for innovation and a deep understanding of technology, I ensure that every aspect of our digital presence runs smoothly. From website development to content management, I bring the technical expertise that powers our platforms.
+      </p>
+      <p style="font-size: 1.1rem; line-height: 1.8; color: #555;">
+        Beyond the podcast, I also lead the tech initiatives at Building Bihar, working to create digital solutions that amplify social impact. My goal is to blend technology with storytelling, making every interaction seamless and meaningful.
+      </p>
+      <p style="font-size: 1.1rem; line-height: 1.8; color: #555;">
+        Join me as we push boundaries, innovate, and build a future where technology meets purpose.
+      </p>
+      <a href="mailto:abhiydv23096@gmail.com" class="btn btn-primary" style="margin-top: 20px; display: inline-flex; align-items: center; gap: 10px; background-color: #ff5733; color: #fff; padding: 10px 20px; border-radius: 5px; text-decoration: none; transition: background-color 0.3s ease;">
+        <ion-icon name="mail-outline"></ion-icon>
+        <span>Contact Me</span>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<style>
+  /* Add animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  /* Hover effect for the image */
+  .host-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Hover effect for the button */
+  .btn-primary:hover {
+    background-color: #ca16ea;
+  }
+</style>
+
+      
+<!-- 
+        - #NEWSLETTER
+      -->
+
+      <section class="newsletter">
+        <div class="newsletter-card">
+
+          <div class="card-content">
+            <h3 class="h3 card-title">Subscribe to Our Podcast Newsletter</h3>
+
+            <p class="card-text">
+              Get the Latest Episodes, Exclusive Content, 
+              and behind-the-scenes stories from UNFOLD WITH RAHUL.
+              Never miss a moment—join our community today!
+            </p>
+          </div>
+
+          <form action="" class="card-form" data-form>
+            <input type="email" name="email_address" placeholder="Your Email Address" required class="input-field"
+              data-input>
+
+            <button type="submit" class="btn btn-primary" disabled data-submit>Subscribe</button>
+          </form>
+
+        </div>
+      </section>
+
+
+<!-- Replace the newsletter section with an image -->
+<section class="newsletter-image" style="padding: 50px 0; text-align: center; background: linear-gradient(135deg, #f9f9f9, #e3f2fd);">
+  <div class="container" style="max-width: 800px; margin: 0 auto; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); border-radius: 10px; overflow: hidden;">
+    <img src="./assets/images/14415.jpg" alt="Newsletter Replacement" style="width: 100%; display: block; border-radius: 10px;">
+  </div>
+</section>
+      
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer>
+
+    <div class="footer-top" id="footer-brand">
+      <div class="container">
+
+        <div class="footer-brand">
+          <a href="#" class="logo">
+          -->
+          <a href="#" class="logo" style="font-size: 1.5rem; font-weight: bold; color: #ff5733; text-transform: uppercase; display: flex; align-items: center;">
+            <span style="color: #ca16ea;">UNFOLD </span> 
+            <span style="color: #1bbde6;">WITH</span> 
+            <span style="color: #e74c3c;">RAHUL</span>
+            <img src="./assets/images/pic.png" alt="Logo" style="width: 50px; height: 50px; margin-left: 10px;">
+          </a>
+          </a>
+
+          <p class="footer-text">
+            Welcome to Where Stories Unfold, Ideas Thrive, and Conversations inspire. 
+            Join us as we dive into untold stories, thought-provoking discussions, 
+            and impactful experiences. From personal growth to politics, 
+            Tech to social change, every episode brings fresh insights and powerful perspectives. 
+            Let’s explore the stories that matter—one conversation at a time.
+          </p>
+
+          </p>
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-link-title">Contact US</p>
+          </li>
+
+          <li>
+            <a href="myreach281@gmail.com" class="footer-link">myreach281@gmail.com</a>
+          </li>
+
+          <li>
+            <a href="tel:+91-8618329181, +91-9470074183" class="footer-link">+91-8618329181, +91-9470074183</a>
+          </li>
+
+        </ul>
+
+        <div class="social-list-box">
+
+          <p class="social-title">Follow Us On:</p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="https://www.facebook.com/profile.php?id=61574603038138" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/unfoldwithrahul?igsh=aDNhOG1uNWhtYXFn" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-soundcloud"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-apple"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright">
+          &copy; 2025 <a href="#">UNFOLD WITH RAHUL</a>. All Rights Reserved
+        </p>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
